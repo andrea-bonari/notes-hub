@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Analisi matematica 1",
+        "code": [ "MAT/05" ],
+        "description": "Il corso di Analisi Matematica 1 copre argomenti chiave relativi a insiemi numerici, funzioni reali, calcolo differenziale e integrale, e serie numeriche. Si inizia con richiami sui numeri naturali, interi, razionali, e reali, esplorando anche numeri complessi e loro operazioni. Le funzioni reali di una variabile sono introdotte, trattando limiti, continuità, e il calcolo differenziale con derivate e teoremi fondamentali come quello di Lagrange. Successivamente, il calcolo integrale viene esaminato, includendo il teorema fondamentale del calcolo integrale e metodi di integrazione. Infine, il corso copre le serie numeriche, con criteri di convergenza per serie a termini non negativi e a termini di segno qualunque, inclusi criteri come quelli del confronto e di Leibnitz.",
+        "url": "https://andrea-bonari.github.io/analisi-matematica-1",
+        "isWIP": true,
+        "year": 1,
+        "credits": 10
+    },
+    {
+        "name": "Geometria e algebra lineare",
+        "code": [ "MAT/03" ],
+        "description": "Il corso di geometria e algebra lineare copre vari argomenti fondamentali. Si inizia con matrici e vettori geometrici, esplorando l'algebra delle matrici, il rango, i metodi di Gauss e Gauss-Jordan, e il calcolo del determinante. Successivamente, si affrontano i sistemi lineari, esaminando le tecniche di risoluzione e il teorema di Rouché-Capelli. Gli spazi vettoriali sono poi introdotti, con discussioni su basi, dimensioni e teoremi di nullità più rango. Il corso prosegue con le applicazioni lineari, inclusi isomorfismi e matrici rappresentative. Gli endomorfismi coprono autovalori, autovettori e criteri di diagonalizzabilità. Negli spazi euclidei, si studiano prodotto scalare, ortogonalità e algoritmi come Gram-Schmidt. Infine, si trattano coordinate cartesiane, geometria analitica, coniche e quadriche, con un'analisi dettagliata delle loro proprietà e classificazioni.",
+        "url": "https://andrea-bonari.github.io/geometria-e-algebra-lineare",
+        "year": 1,
+        "credits": 8
+    },
+    {
+        "name": "Fondamenti di informatica",
+        "code": [ "ING-INF/05"],
+        "description": "Il corso di Fondamenti di Informatica introduce i concetti di algoritmi, programmi e linguaggi, insieme alla logica proposizionale e alla codifica binaria dell'informazione. Vengono trattati la rappresentazione e l'aritmetica dei numeri interi e reali, così come la codifica dei caratteri. La programmazione, con riferimento al linguaggio C, copre la sintassi, le strutture di controllo, e l'astrazione sui dati con tipi base, array, struct e puntatori. I sottoprogrammi vengono studiati per la programmazione modulare, inclusi il passaggio dei parametri e la ricorsione. Le strutture dati dinamiche, come liste collegate, e persistenti, come i file, vengono esplorate. L'attività di laboratorio è facoltativa ma essenziale per acquisire pratica nell'uso del calcolatore e nelle tecniche di programmazione.",
+        "year": 1,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Fisica",
+        "code": [ "FIS/01" ],
+        "description": "Il corso di Fisica inizia con un'introduzione alle grandezze fisiche, scalari e vettoriali, e la loro misurazione. La cinetica del punto materiale viene analizzata con lo studio di traiettorie, velocità e accelerazione. Si approfondiscono i principi della dinamica del punto materiale e le forze, includendo i principi di Newton e varie forze come peso e attrito. Il lavoro e l'energia sono trattati, evidenziando l'energia cinetica, potenziale e la conservazione dell'energia. La dinamica in sistemi non inerziali viene esplorata, considerando forze apparenti. Il corso copre anche le interazioni fra masse e cariche elettriche, come la forza gravitazionale e elettrostatica. La dinamica dei sistemi di punti materiali include concetti come il centro di massa e conservazione della quantità di moto. Si introducono elementi di dinamica del corpo rigido, come il momento d'inerzia e moto rotatorio. La meccanica dei fluidi viene trattata, includendo densità, pressione e principio di Archimede. La termodinamica viene esplorata con i primi due principi, macchine termiche e frigorifere, e concetti di entropia e teoria cinetica dei gas.",
+        "year": 1,
+        "credits": 12,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Elettrotecnica",
+        "code": [ "ING-IND/31" ],
+        "description": "Il corso di Elettrotecnica inizia con un'introduzione ai circuiti elettrici, il concetto di bipolo, le grandezze elettriche come tensione, corrente e potenza, e le leggi di Kirchhoff. Si studiano i bipoli puramente resistivi e i modelli di Thévenin e Norton. Doppi bipoli lineari vengono analizzati con rappresentazioni matriciali e l'uso di amplificatori operazionali. L'analisi dei circuiti include trasformazioni di generatori, analisi nodale, teoremi di Thévenin e Norton, e il principio di sovrapposizione. Componenti dinamici come condensatori e induttori vengono esplorati nei circuiti RC e RL. In regime sinusoidale, si studiano sinusoidi con fasori, impedenza, potenza complessa, rifasamento, e sistemi trifase. Cenni di elettromagnetismo trattano campi scalari e vettoriali, campi elettrostatici e magnetostatici, e induzione elettromagnetica con la legge di Faraday e il trasformatore reale.",
+        "year": 1,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Fondamenti di comunicazioni e internet",
+        "code": [ "ING-INF/03"],
+        "description": "Il corso di Fondamenti di Comunicazioni e Internet copre reti di telecomunicazione, protocolli di comunicazione e architetture a strati, incluse commutazione di pacchetto e di circuito. Analizza segnali, mezzi trasmissivi, throughput e ritardi. Studia protocolli applicativi (HTTP, FTP, SMTP, DNS, BitTorrent), livelli di trasporto (UDP, TCP) e networking (IPv4, DHCP, NAT, ICMP, IPv6). Copre routing (RIP, OSPF, BGP), reti locali (Ethernet, WiFi) e include attività di laboratorio su analisi del traffico, programmazione socket e configurazione di rete.",
+        "year": 1,
+        "credits": 10,
+        "isNotAvailable": true
+    }
+]
