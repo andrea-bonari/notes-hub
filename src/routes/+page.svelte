@@ -1,6 +1,34 @@
 <script lang="ts">
 	import { sha256 } from 'js-sha256';
 	import data from '$lib/data.json';
+	import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
+
+	type Website = {
+		name: string;
+		code: string[];
+		description: string;
+		url: string;
+		isNotAvailable: boolean;
+		isWIP: boolean;
+	};
+
+	let finalData : Website[] = data as unknown as Website[];
+
+	$: finalData = data.filter((website) => {
+		let w = website as unknown as Website;
+
+		if (filterType === 'all') return true;
+		if (filterType === 'completed') return !w.isNotAvailable && !w.isWIP;
+		if (filterType === 'inProgress') return w.isWIP;
+		if (filterType === 'notAvailable') return w.isNotAvailable;
+	}).filter((website) => {
+		if (query === '') return true;
+		return website.name.toLowerCase().includes(query.toLowerCase()) || website.code.join('').toLowerCase().includes(query.toLowerCase()) || website.description.toLowerCase().includes(query.toLowerCase());
+	}) as unknown as Website[];
+
+	let query = '';
+
+	let filterType: 'all' | 'completed' | 'inProgress' | 'notAvailable' = 'all';
 
 	const codeColors = (() => {
 		const codes = data.map((website) => website.code).flat();
@@ -24,8 +52,24 @@
 	})();
 </script>
 
+<div class="flex items-center justify-center w-full p-10 h-min">
+	<RadioGroup active="variant-filled-primary" hover="hover:variant-soft-primary">
+		<RadioItem bind:group={filterType} name="all" value="all">Tutti</RadioItem>
+		<RadioItem bind:group={filterType} name="completed" value="completed">Completati</RadioItem>
+		<RadioItem bind:group={filterType} name="inProgress" value="inProgress">In corso</RadioItem>
+		<RadioItem bind:group={filterType} name="notAvailable" value="notAvailable">Non disponibili</RadioItem>
+	</RadioGroup>
+
+	<input
+		type="text"
+		placeholder="Cerca..."
+		class="input p-1 h-10 ml-5 w-[calc(100%-50rem)]"
+		bind:value={query}
+	/>
+</div>
+
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-10 gap-10 h-min">
-	{#each data as website}
+	{#each finalData as website}
 		<div class="card h-min">
 			<header class="card-header">{website.name}</header>
 			<section class="p-4 flex gap-2">
