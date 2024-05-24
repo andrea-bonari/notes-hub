@@ -4,7 +4,6 @@
         "code": [ "MAT/05" ],
         "description": "Il corso di Analisi Matematica 1 copre argomenti chiave relativi a insiemi numerici, funzioni reali, calcolo differenziale e integrale, e serie numeriche. Si inizia con richiami sui numeri naturali, interi, razionali, e reali, esplorando anche numeri complessi e loro operazioni. Le funzioni reali di una variabile sono introdotte, trattando limiti, continuità, e il calcolo differenziale con derivate e teoremi fondamentali come quello di Lagrange. Successivamente, il calcolo integrale viene esaminato, includendo il teorema fondamentale del calcolo integrale e metodi di integrazione. Infine, il corso copre le serie numeriche, con criteri di convergenza per serie a termini non negativi e a termini di segno qualunque, inclusi criteri come quelli del confronto e di Leibnitz.",
         "url": "https://andrea-bonari.github.io/analisi-matematica-1",
-        "isWIP": true,
         "year": 1,
         "credits": 10
     },
