@@ -52,10 +52,10 @@
 	})();
 </script>
 
-<div class="flex items-center justify-center w-full p-10 h-min">
-	<RadioGroup active="variant-filled-primary" hover="hover:variant-soft-primary">
-		<RadioItem bind:group={filterType} name="all" value="all">Tutti</RadioItem>
-		<RadioItem bind:group={filterType} name="completed" value="completed">Completati</RadioItem>
+<div class="flex flex-col sm:flex-row items-center justify-center w-full p-10 h-min">
+	<RadioGroup active="variant-filled-primary" hover="hover:variant-soft-primary" flexDirection="flex-col sm:flex-row" rounded="sm:rounded-token rounded-2xl">
+		<RadioItem bind:group={filterType} class="h-full flex items-center justify-center" name="all" value="all">Tutti</RadioItem>
+		<RadioItem bind:group={filterType} class="h-full flex items-center justify-center" name="completed" value="completed">Completati</RadioItem>
 		<RadioItem bind:group={filterType} name="inProgress" value="inProgress">In corso</RadioItem>
 		<RadioItem bind:group={filterType} name="notAvailable" value="notAvailable">Non disponibili</RadioItem>
 	</RadioGroup>
@@ -63,7 +63,7 @@
 	<input
 		type="text"
 		placeholder="Cerca..."
-		class="input p-1 h-10 ml-5 w-[calc(100%-50rem)]"
+		class="input p-1 h-10 ml-0 mt-5 sm:ml-5 sm:mt-0 w-[50%]"
 		bind:value={query}
 	/>
 </div>
