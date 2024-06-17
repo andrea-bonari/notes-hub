@@ -19,9 +19,9 @@
         "name": "Fondamenti di informatica",
         "code": [ "ING-INF/05"],
         "description": "Il corso di Fondamenti di Informatica introduce i concetti di algoritmi, programmi e linguaggi, insieme alla logica proposizionale e alla codifica binaria dell'informazione. Vengono trattati la rappresentazione e l'aritmetica dei numeri interi e reali, così come la codifica dei caratteri. La programmazione, con riferimento al linguaggio C, copre la sintassi, le strutture di controllo, e l'astrazione sui dati con tipi base, array, struct e puntatori. I sottoprogrammi vengono studiati per la programmazione modulare, inclusi il passaggio dei parametri e la ricorsione. Le strutture dati dinamiche, come liste collegate, e persistenti, come i file, vengono esplorate. L'attività di laboratorio è facoltativa ma essenziale per acquisire pratica nell'uso del calcolatore e nelle tecniche di programmazione.",
+        "url": "https://andrea-bonari.github.io/fondamenti-di-informatica",
         "year": 1,
         "credits": 10,
-        "isNotAvailable": true
     },
     {
         "name": "Fisica",
