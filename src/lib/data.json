@@ -45,7 +45,6 @@
         "description": "Il corso di Fondamenti di Comunicazioni e Internet copre reti di telecomunicazione, protocolli di comunicazione e architetture a strati, incluse commutazione di pacchetto e di circuito. Analizza segnali, mezzi trasmissivi, throughput e ritardi. Studia protocolli applicativi (HTTP, FTP, SMTP, DNS, BitTorrent), livelli di trasporto (UDP, TCP) e networking (IPv4, DHCP, NAT, ICMP, IPv6). Copre routing (RIP, OSPF, BGP), reti locali (Ethernet, WiFi) e include attività di laboratorio su analisi del traffico, programmazione socket e configurazione di rete.",
         "url": "https://andrea-bonari.github.io/fondamenti-di-comunicazioni-e-internet/",
         "year": 1,
-        "credits": 10,
-        "isWIP": true
+        "credits": 10
     }
 ]
