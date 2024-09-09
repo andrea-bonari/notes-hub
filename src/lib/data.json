@@ -47,5 +47,50 @@
         "url": "https://andrea-bonari.github.io/fondamenti-di-comunicazioni-e-internet/",
         "year": 1,
         "credits": 10
+    },
+    {
+        "name": "Analisi matematica 2",
+        "code": [ "MAT/05" ],
+        "description": "Il corso di Analisi Matematica 2 affronta vari concetti avanzati, tra cui le curve parametriche, sia piane che spaziali, studiandone le proprietà come la lunghezza e gli integrali curvilinei. Viene approfondito il calcolo differenziale per funzioni di più variabili, con nozioni su limiti, continuità, derivate parziali, gradiente e ottimizzazione. Si esplora il calcolo integrale con integrali doppi e tripli, insieme a trasformazioni di coordinate. La parte sulle serie di potenze include la teoria di Fourier, con applicazioni a funzioni periodiche. Inoltre, il corso tratta le equazioni differenziali ordinarie, lineari e non lineari, e i sistemi differenziali. Infine, si introducono elementi di teoria qualitativa delle equazioni differenziali, con un focus sui sistemi autonomi e lo studio qualitativo tramite diagrammi di fase.",
+        "url": "https://andrea-bonari.github.io/analisi-matematica-2",
+        "year": 2,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Architettura dei calcolatori e sistemi operativi",
+        "code": [ "ING-INF/05" ],
+        "description": "Il corso di Architettura dei Calcolatori e Sistemi Operativi si divide in due parti principali. Nella prima parte si introducono le istruzioni macchina, il linguaggio assembler, e la loro traduzione da C, oltre alle tecniche di assemblaggio e collegamento. Si studiano i circuiti logici e l'algebra di Boole, con particolare attenzione alle funzioni combinatorie e ai circuiti come ALU, registri e memorie. Si approfondisce anche la microarchitettura del processore, inclusi concetti come pipeline e memorie cache. Nella seconda parte si affronta la programmazione di sistema con un focus su parallelismo, thread e programmazione concorrente. Si esplora la struttura e il funzionamento dei sistemi operativi, con argomenti come la gestione dei processi, la memoria virtuale, il file system e la gestione delle periferiche.",
+        "url": "https://andrea-bonari.github.io/architettura-dei-calcolatori-e-sistemi-operativi",        
+        "year": 2,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Logica e algebra",
+        "code": [ "MAT/01", "MAT/02" ],
+        "description": "Il corso di Logica e Algebra affronta temi fondamentali su relazioni, logica e strutture algebriche. Nella parte dedicata alle relazioni e applicazioni, si studiano le relazioni binarie e le loro proprietà, come riflessività e transitività. Si trattano concetti come relazioni di equivalenza, insiemi quoziente, e il teorema di Cantor. Inoltre, si esplorano le relazioni d'ordine e i reticoli. La sezione di logica proposizionale introduce il linguaggio della logica, le tautologie, le deduzioni, e la forma normale disgiuntiva e congiuntiva. Vengono trattati anche i sistemi formali, con i teoremi di correttezza e completezza. Nella logica del primo ordine, si studiano i linguaggi predicativi, le formule e le interpretazioni, insieme ai teoremi fondamentali e le questioni di decidibilità. Infine, nella parte sulle strutture algebriche, si introducono semigruppi, gruppi, anelli e campi. Si analizzano le relazioni di congruenza, le strutture quozienti e i teoremi di omomorfismo.",
+        "url": "https://andrea-bonari.github.io/logica-e-algebra",
+        "year": 2,
+        "credits": 5,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Misure",
+        "code": [ "ING-INF/07" ],
+        "description": "Il corso di Misure esplora i concetti fondamentali della metrologia e delle misurazioni, con particolare attenzione a caratteristiche come accuratezza, incertezza, risoluzione e ripetibilità. Viene introdotto il Sistema Internazionale di unità (SI), le unità logaritmiche (dB, dBm) e i parametri dei segnali (continui, discreti, periodici e aperiodici). Viene trattata la statistica applicata alle misure, compresa la stima dell'incertezza, la propagazione degli errori e la compatibilità tra misure. Il corso include una sezione sulle strumentazioni digitali, con particolare attenzione a campionamento, conversione analogico-digitale e voltmetri digitali. Viene affrontata la gestione della strumentazione tramite LabVIEW, con protocolli di comunicazione come RS232 e USB. Gli studenti praticano nel laboratorio con oscilloscopi digitali, voltmetri, generatori di funzioni e schede di acquisizione dati, per caratterizzare segnali elettrici ed elettronici. Durante le attività di laboratorio, gli studenti acquisiscono familiarità con la strumentazione moderna, sperimentando problemi legati al condizionamento e all'elaborazione dei segnali di misura.",
+        "url": "https://andrea-bonari.github.io/misure",
+        "year": 2,
+        "credits": 5,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Algoritmi e principi dell'informatica",
+        "code": [ "ING-INF/05" ],
+        "description": "Il corso di Algoritmi e Principi dell'Informatica è suddiviso in due moduli principali. Il primo modulo tratta l'informatica teorica. In questa parte si introducono i principali modelli dell'informatica, come gli automi a stati finiti, automi a pila e le Macchine di Turing, insieme a modelli non deterministici e grammatiche. Viene inoltre presentata la logica matematica, utilizzata per modellare sistemi e descriverne le proprietà. La teoria della computazione viene approfondita attraverso la discussione della potenza dei modelli di calcolo, della Tesi di Church e dei problemi indecidibili, con tecniche per dimostrare l'indecidibilità di alcuni problemi. Il secondo modulo è dedicato agli algoritmi e alla teoria della complessità. Si affrontano le nozioni fondamentali per l'analisi della complessità, i modelli di calcolo e la macchina RAM, con approfondimenti sulla gerarchia delle complessità e sulla NP-completezza. Successivamente, vengono studiate le principali strutture dati, come pile, code, alberi binari, alberi generici, BST e heap, con relativi algoritmi di gestione e visita. Si esaminano inoltre gli algoritmi di ordinamento e le soluzioni al problema della ricerca, con tecniche basate su tabelle di hash e alberi B e B+. Infine, si esplorano i grafi, la loro rappresentazione e i principali algoritmi per la loro gestione.",
+        "url": "https://andrea-bonari.github.io/algoritmi-e-principi-dell-informatica",
+        "year": 2,
+        "credits": 10,
+        "isNotAvailable": true
     }
 ]

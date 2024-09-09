@@ -68,9 +68,9 @@
 	/>
 </div>
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-10 gap-10 h-min">
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-10 gap-10 h-min grid-rows-[1fr]">
 	{#each finalData as website}
-		<div class="card h-min">
+		<div class="card flex flex-col">
 			<header class="card-header">{website.name}</header>
 			<section class="p-4 flex gap-2">
 				{#each website.code as code}
@@ -81,19 +81,19 @@
 				{/each}
 
 				{#if website.isNotAvailable}
-					<span class="badge variant-filled-error border-red-800 border-4 pointer-events-none"
+					<span class="badge variant-filled-error border-red-800 border-4 h-6 pointer-events-none"
 					>Non disponibile</span
 				>
 				{:else if website.isWIP}
-					<span class="badge variant-filled-warning border-red-800 border-4 pointer-events-none"
+					<span class="badge variant-filled-warning border-red-800 border-4 h-6 pointer-events-none"
 						>In costruzione</span
 					>
 				{/if}
 
 				
 			</section>
-			<footer class="text-sm card-footer p text-ellipsis w-[calc(100%)] overflow-hidden">
-				<p>
+			<footer class="text-sm card-footer p text-ellipsis w-[calc(100%)] overflow-hidden flex flex-col flex-1">
+				<p class="flex-grow">
 					{website.description}
 				</p>
 				{#if website.isNotAvailable}
