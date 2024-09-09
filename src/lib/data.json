@@ -55,7 +55,7 @@
         "url": "https://andrea-bonari.github.io/analisi-matematica-2",
         "year": 2,
         "credits": 10,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Architettura dei calcolatori e sistemi operativi",
@@ -64,7 +64,7 @@
         "url": "https://andrea-bonari.github.io/architettura-dei-calcolatori-e-sistemi-operativi",        
         "year": 2,
         "credits": 10,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Logica e algebra",
@@ -73,7 +73,7 @@
         "url": "https://andrea-bonari.github.io/logica-e-algebra",
         "year": 2,
         "credits": 5,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Misure",
@@ -82,7 +82,7 @@
         "url": "https://andrea-bonari.github.io/misure",
         "year": 2,
         "credits": 5,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Algoritmi e principi dell'informatica",
