@@ -27,9 +27,10 @@
         "name": "Fisica",
         "code": [ "FIS/01" ],
         "description": "Il corso di Fisica inizia con un'introduzione alle grandezze fisiche, scalari e vettoriali, e la loro misurazione. La cinetica del punto materiale viene analizzata con lo studio di traiettorie, velocità e accelerazione. Si approfondiscono i principi della dinamica del punto materiale e le forze, includendo i principi di Newton e varie forze come peso e attrito. Il lavoro e l'energia sono trattati, evidenziando l'energia cinetica, potenziale e la conservazione dell'energia. La dinamica in sistemi non inerziali viene esplorata, considerando forze apparenti. Il corso copre anche le interazioni fra masse e cariche elettriche, come la forza gravitazionale e elettrostatica. La dinamica dei sistemi di punti materiali include concetti come il centro di massa e conservazione della quantità di moto. Si introducono elementi di dinamica del corpo rigido, come il momento d'inerzia e moto rotatorio. La meccanica dei fluidi viene trattata, includendo densità, pressione e principio di Archimede. La termodinamica viene esplorata con i primi due principi, macchine termiche e frigorifere, e concetti di entropia e teoria cinetica dei gas.",
+        "url": "https://andrea-bonari.github.io/fisica",
         "year": 1,
         "credits": 12,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Elettrotecnica",
@@ -88,6 +89,6 @@
         "url": "https://andrea-bonari.github.io/algoritmi-e-principi-dell-informatica",
         "year": 2,
         "credits": 10,
-        "isNotAvailable": true
+        "isWIP": true
     }
 ]
