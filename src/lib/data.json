@@ -80,11 +80,84 @@
         "credits": 5
     },
     {
+        "name": "Informazione e stima (per ingegneria informatica)",
+        "code": [ "ING-INF/03" ],
+        "description": "Il corso introduce i concetti di probabilità e variabili casuali, partendo da spazi numerabili e non numerabili, probabilità condizionata, indipendenza e regola di Bayes. Vengono trattati calcolo combinatorio e ottimizzazione combinatoria. Si studiano variabili casuali, funzioni di distribuzione e densità, valore atteso, varianza, densità congiunte e condizionate e funzioni di variabili casuali. Seguono prove ripetute, distribuzione binomiale, approssimazione gaussiana, momenti, funzioni caratteristiche, legge dei grandi numeri e teorema del limite centrale. Si analizzano processi casuali, discreti e continui, con momenti, autocorrelazione, stazionarietà, ergodicità e processi gaussiani. Si introduce la teoria dell'informazione, con entropia, informazione mutua, regole a catena, compressione dati e codifica di sorgente. Nella parte di stima si affrontano media e varianza campionaria, massima verosimiglianza, stima a minimo errore quadratico medio e predizione. Il corso include simulazioni Monte Carlo, generazione di numeri pseudocasuali, simulazione di eventi rari e test d'ipotesi con applicazioni ingegneristiche.",
+        "url": "https://andrea-bonari.github.io/informazione-e-stima-per-ingegneria-informatica",
+        "year": 2,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
         "name": "Algoritmi e principi dell'informatica",
         "code": [ "ING-INF/05" ],
         "description": "Il corso di Algoritmi e Principi dell'Informatica è suddiviso in due moduli principali. Il primo modulo tratta l'informatica teorica. In questa parte si introducono i principali modelli dell'informatica, come gli automi a stati finiti, automi a pila e le Macchine di Turing, insieme a modelli non deterministici e grammatiche. Viene inoltre presentata la logica matematica, utilizzata per modellare sistemi e descriverne le proprietà. La teoria della computazione viene approfondita attraverso la discussione della potenza dei modelli di calcolo, della Tesi di Church e dei problemi indecidibili, con tecniche per dimostrare l'indecidibilità di alcuni problemi. Il secondo modulo è dedicato agli algoritmi e alla teoria della complessità. Si affrontano le nozioni fondamentali per l'analisi della complessità, i modelli di calcolo e la macchina RAM, con approfondimenti sulla gerarchia delle complessità e sulla NP-completezza. Successivamente, vengono studiate le principali strutture dati, come pile, code, alberi binari, alberi generici, BST e heap, con relativi algoritmi di gestione e visita. Si esaminano inoltre gli algoritmi di ordinamento e le soluzioni al problema della ricerca, con tecniche basate su tabelle di hash e alberi B e B+. Infine, si esplorano i grafi, la loro rappresentazione e i principali algoritmi per la loro gestione.",
         "url": "https://andrea-bonari.github.io/algoritmi-e-principi-dell-informatica",
         "year": 2,
         "credits": 10
+    },
+    {
+        "name": "Fondamenti di automatica",
+        "code": [ "ING-INF/04" ],
+        "description": "Il corso introduce i problemi di controllo e le architetture dei sistemi di regolazione, distinguendo tra controllo in anello aperto e chiuso. Si studiano i sistemi dinamici a tempo continuo tramite rappresentazione di stato, equilibrio, linearizzazione e principio di sovrapposizione. Viene analizzata la stabilità di sistemi lineari e non lineari con criteri specifici. Si affronta l'analisi nel dominio di Laplace, con funzioni di trasferimento, risposte a segnali canonici, schemi a blocchi e stabilità dei sistemi interconnessi. Segue lo studio della risposta in frequenza, diagrammi di Bode e Nyquist e criteri di robustezza. L'analisi dei sistemi retroazionati comprende stabilità, margini di fase e guadagno, comportamento dinamico e statico. Si passa al progetto dei regolatori, con criteri di Bode, compensatori e requisiti di precisione e robustezza, fino ai controllori industriali PID e ai metodi di taratura. Infine, il corso tratta i sistemi e segnali a tempo discreto, la trasformata Zeta, il controllo digitale e la scelta del periodo di campionamento.",
+        "url": "https://andrea-bonari.github.io/fondamenti-di-automatica",
+        "year": 2,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Sistemi informativi (per il settore dell'informazione)",
+        "code": [ "ING-INF/05" ],
+        "description": "Il corso introduce i sistemi informativi, il concetto di informazione e i suoi livelli, spiegando il ruolo del sistema informativo nelle organizzazioni. Si approfondisce l'Enterprise Architecture con il framework di Zachman e le fasi del ciclo di vita di un SI, dalla pianificazione alla gestione, includendo lo studio di fattibilità e le scelte make or buy. Viene presentata la modellazione dei sistemi con Archimate e BPMN per descrivere processi aziendali e flussi informativi. Si analizzano i componenti tecnologici e applicativi, distinguendo OLTP e OLAP, e gli applicativi ERP e CRM a supporto delle attività operative. La parte dedicata ai dati copre data warehouse, modelli multidimensionali, architetture, operatori OLAP e introduzione al data mining con i principali algoritmi. Si esaminano le scelte infrastrutturali per i SI, l'integrazione di applicazioni, dati e processi, le architetture distribuite e il cloud computing. Infine, si affronta la sicurezza dei sistemi informativi, introducendo crittografia simmetrica e asimmetrica, firma digitale, gestione utenti, controllo accessi, firewall e IDS.",
+        "url": "https://andrea-bonari.github.io/sistemi-informativi-per-il-settore-dell-informazione",
+        "year": 3,
+        "credits": 5,
+        "isWIP": true
+    },
+    {
+        "name": "Basi di dati 1",
+        "code": [ "ING-INF/05" ],
+        "description": "Il corso introduce il sistema informativo in azienda, le caratteristiche dei DBMS, il concetto di transazione e i diversi utenti, strumenti e moduli di un DBMS. Si affronta la teoria relazionale, definendo il modello relazionale dei dati in modo formale e informale e presentando i concetti di algebra relazionale con operazioni unarie e binarie, interrogazioni e loro ottimizzazione. Viene introdotto Datalog per interrogazioni ricorsive e vincoli di integrità. La parte dedicata ai linguaggi per basi di dati approfondisce SQL come linguaggio DDL e DML, includendo definizione e modifica di schemi, vincoli, integrità referenziale, interrogazioni semplici e complesse con ordinamenti, raggruppamenti, viste, indici, trigger, procedure e transazioni. La progettazione di basi di dati copre tutte le fasi: concettuale con il modello Entità-Relazioni, logica con normalizzazione e gestione di attributi, associazioni e identificatori, e cenni di progettazione fisica.",
+        "url": "https://andrea-bonari.github.io/basi-di-dati-1",
+        "year": 3,
+        "credits": 5,
+        "isWIP": true
+    },
+    {
+        "name": "Reti logiche",
+        "code": [ "ING-INF/05" ],
+        "description": "Il corso affronta il progetto di reti combinatorie introducendo la sintesi combinatoria, la minimizzazione esatta tramite Quine-McCluskey per funzioni a singola e più uscite, e cenni alla sintesi euristica e multilivello. Si studiano le architetture ROM, PAL e PLA e la loro sintesi. La parte di aritmetica del calcolatore analizza la rappresentazione e le operazioni in virgola fissa e mobile, con architetture di sommatori e moltiplicatori. Successivamente si passa alle reti sequenziali sincrone, trattando il concetto di stato, macchine sincrone e asincrone, elementi di memoria (D, RS, JK, T), il modello generale di macchina a stati finiti, la loro sintesi e la minimizzazione del numero di stati. Infine, viene introdotto il progetto automatizzato di architetture digitali, presentando il flusso di progettazione hardware e l'uso del linguaggio VHDL per la descrizione di architetture.",
+        "url": "https://andrea-bonari.github.io/reti-logiche",
+        "year": 3,
+        "credits": 5,
+        "isWIP": true
+    },
+    {
+        "name": "Ingegneria del software",
+        "code": [ "ING-INF/05" ],
+        "description": "Il corso di Ingegneria del Software fornisce le competenze necessarie per progettare e realizzare applicazioni software complesse, introducendo il ciclo di vita del software e i principi della progettazione orientata agli oggetti. Si studiano UML, con particolare attenzione ai diagrammi delle classi e di sequenza, e il linguaggio Java per la definizione di classi e metodi. Vengono approfonditi i design pattern, i principi della programmazione funzionale in Java e le tecniche di test funzionale e strutturale per verificare la correttezza del software. Inoltre, il corso introduce la programmazione di rete e distribuita e la progettazione di interfacce utente.",
+        "url": "https://andrea-bonari.github.io/ingegneria-del-software",
+        "year": 3,
+        "credits": 5,
+        "isWIP": true
+    },
+    {
+        "name": "Economia e organizzazione aziendale",
+        "code": [ "ING-IND/35" ],
+        "description": "Il corso introduce il funzionamento delle imprese partendo dai loro obiettivi, dalle diverse forme giuridiche e dal rapporto tra proprietà e controllo, analizzando il legame con il contesto economico e sociale. Si studia il comportamento delle imprese nel mercato, esaminando la domanda, le funzioni di costo, l'equilibrio in concorrenza perfetta e altre strutture di mercato. Si affronta la contabilità esterna, comprendendo la struttura del bilancio, lo stato patrimoniale, il conto economico, le analisi di liquidità e redditività e il rendiconto finanziario, con esempi pratici. Segue la valutazione degli investimenti, con concetti di costo opportunità, flussi di cassa, valore attuale netto e altri criteri decisionali. Viene poi introdotta la contabilità interna, con le tipologie di costo, i metodi di rilevazione, le decisioni di breve periodo e l'uso del budget per analizzare gli scostamenti. Infine, si approfondisce l'organizzazione interna delle imprese, studiando microstruttura e macrostruttura, i meccanismi di coordinamento, gli incentivi, le gerarchie aziendali e le diverse forme di struttura organizzativa.",
+        "url": "https://andrea-bonari.github.io/economia-e-organizzazione-aziendale",
+        "year": 3,
+        "credits": 8,
+        "isNotAvailable": true
+    },
+    {
+        "name": "Bioinformatics algorithms",
+        "code": [ "ING-INF/05" ],
+        "description": "The course introduces computational biology and bioinformatics, starting with a brief biological background covering cells, DNA, RNA, proteins, and sequencing techniques. It covers sequence alignment, including pairwise alignments with dynamic programming (Needleman-Wunsch, Smith-Waterman), longest common substring, and multiple sequence alignment methods such as center star, tree-based progressive alignment, profile-based weighting, and motif scoring. Next, it addresses read alignment for next-generation sequencing using suffix trees/arrays, Burrows-Wheeler transform, FM index, and exact/inexact matching. De-novo genome assembly is taught using de Bruijn graphs and Eulerian paths. Variant calling covers single nucleotide variants, copy number variants, and germline vs. somatic mutations. Finally, Hidden Markov Models are introduced for sequence modeling, including Viterbi decoding, posterior decoding, and parameter learning.",
+        "url": "https://andrea-bonari.github.io/bioinformatics-algorithms",
+        "year": 3,
+        "credits": 5,
+        "isEnglish": true,
+        "isNotAvailable": true
     }
 ]
