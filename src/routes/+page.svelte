@@ -2,6 +2,8 @@
 	import { sha256 } from 'js-sha256';
 	import data from '$lib/data.json';
 	import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
+	import it from '$lib/images/it.png';
+	import gb from '$lib/images/gb.png';
 
 	type Website = {
 		name: string;
@@ -10,6 +12,7 @@
 		url: string;
 		isNotAvailable: boolean;
 		isWIP: boolean;
+		isEnglish: boolean;
 	};
 
 	let finalData : Website[] = data as unknown as Website[];
@@ -69,41 +72,43 @@
 </div>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 p-10 gap-10 h-min grid-rows-[1fr]">
-	{#each finalData as website}
-		<div class="card flex flex-col">
-			<header class="card-header">{website.name}</header>
-			<section class="p-4 flex gap-2">
-				{#each website.code as code}
-					<span
-						class="badge constiant-filled pointer-events-none"
-						style="background-color: {codeColors.get(code)};">{code}</span
-					>
-				{/each}
+   {#each finalData as website}
+	   <div class="card flex flex-col">
+		   <header class="card-header flex items-center gap-2">
+			   {website.name}
+		   </header>
+		   <section class="p-4 flex gap-2 items-center">
+			   <img
+				   src={website.isEnglish ? gb : it}
+				   alt={website.isEnglish ? 'English' : 'Italian'}
+				   class="w-6 h-6"
+			   />
+			   {#each website.code as code}
+				   <span
+					   class="badge constiant-filled pointer-events-none"
+					   style="background-color: {codeColors.get(code)};">{code}</span>
+			   {/each}
 
-				{#if website.isNotAvailable}
-					<span class="badge variant-filled-error border-red-800 border-4 h-6 pointer-events-none"
-					>Non disponibile</span
-				>
-				{:else if website.isWIP}
-					<span class="badge variant-filled-warning border-red-800 border-4 h-6 pointer-events-none"
-						>In costruzione</span
-					>
-				{/if}
-
-				
-			</section>
-			<footer class="text-sm card-footer p text-ellipsis w-[calc(100%)] overflow-hidden flex flex-col flex-1">
-				<p class="flex-grow">
-					{website.description}
-				</p>
-				{#if website.isNotAvailable}
-					<p class="button variant-filled-surface cursor-not-allowed chip mt-3 float-right">Apri</p>
-				{:else}
-					<a href={website.url} target="_blank" class="button variant-filled-secondary chip mt-3 float-right card-hover">
-						Apri
-					</a>
-				{/if}
-			</footer>
-		</div>
-	{/each}
+			   {#if website.isNotAvailable}
+				   <span class="badge variant-filled-error border-red-800 border-4 h-6 pointer-events-none"
+				   >Non disponibile</span>
+			   {:else if website.isWIP}
+				   <span class="badge variant-filled-warning border-red-800 border-4 h-6 pointer-events-none"
+					   >In costruzione</span>
+			   {/if}
+		   </section>
+		   <footer class="text-sm card-footer p text-ellipsis w-[calc(100%)] overflow-hidden flex flex-col flex-1">
+			   <p class="flex-grow">
+				   {website.description}
+			   </p>
+			   {#if website.isNotAvailable}
+				   <p class="button variant-filled-surface cursor-not-allowed chip mt-3 float-right">Apri</p>
+			   {:else}
+				   <a href={website.url} target="_blank" class="button variant-filled-secondary chip mt-3 float-right card-hover">
+					   Apri
+				   </a>
+			   {/if}
+		   </footer>
+	   </div>
+   {/each}
 </div>
