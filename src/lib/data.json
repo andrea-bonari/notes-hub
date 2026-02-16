@@ -86,7 +86,7 @@
         "url": "https://andrea-bonari.github.io/informazione-e-stima-per-ingegneria-informatica",
         "year": 2,
         "credits": 10,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Algoritmi e principi dell'informatica",
@@ -103,7 +103,7 @@
         "url": "https://andrea-bonari.github.io/fondamenti-di-automatica",
         "year": 2,
         "credits": 10,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Sistemi informativi (per il settore dell'informazione)",
@@ -144,7 +144,7 @@
         "url": "https://andrea-bonari.github.io/economia-e-organizzazione-aziendale",
         "year": 3,
         "credits": 8,
-        "isNotAvailable": true
+        "isWIP": true
     },
     {
         "name": "Bioinformatics algorithms",
@@ -154,6 +154,6 @@
         "year": 3,
         "credits": 5,
         "isEnglish": true,
-        "isNotAvailable": true
+        "isWIP": true
     }
 ]
