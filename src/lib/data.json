@@ -85,8 +85,7 @@
         "description": "Il corso introduce i concetti di probabilità e variabili casuali, partendo da spazi numerabili e non numerabili, probabilità condizionata, indipendenza e regola di Bayes. Vengono trattati calcolo combinatorio e ottimizzazione combinatoria. Si studiano variabili casuali, funzioni di distribuzione e densità, valore atteso, varianza, densità congiunte e condizionate e funzioni di variabili casuali. Seguono prove ripetute, distribuzione binomiale, approssimazione gaussiana, momenti, funzioni caratteristiche, legge dei grandi numeri e teorema del limite centrale. Si analizzano processi casuali, discreti e continui, con momenti, autocorrelazione, stazionarietà, ergodicità e processi gaussiani. Si introduce la teoria dell'informazione, con entropia, informazione mutua, regole a catena, compressione dati e codifica di sorgente. Nella parte di stima si affrontano media e varianza campionaria, massima verosimiglianza, stima a minimo errore quadratico medio e predizione. Il corso include simulazioni Monte Carlo, generazione di numeri pseudocasuali, simulazione di eventi rari e test d'ipotesi con applicazioni ingegneristiche.",
         "url": "https://andrea-bonari.github.io/informazione-e-stima-per-ingegneria-informatica",
         "year": 2,
-        "credits": 10,
-        "isWIP": true
+        "credits": 10
     },
     {
         "name": "Algoritmi e principi dell'informatica",
