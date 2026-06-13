@@ -151,7 +151,6 @@
         "url": "https://andrea-bonari.github.io/bioinformatics-algorithms",
         "year": 3,
         "credits": 5,
-        "isEnglish": true,
-        "isWIP": true
+        "isEnglish": true
     }
 ]
