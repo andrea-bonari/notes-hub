@@ -104,6 +104,15 @@
         "credits": 10
     },
     {
+        "name": "Fondamenti di elettronica",
+        "code": [ "IINF-01/A"],
+        "description": "Il corso introduce i fondamenti dell'elettronica analogica e digitale, studiando il comportamento fisico dei dispositivi e dei circuiti e il loro impatto su prestazioni come amplificazione, risposta in frequenza, velocità e potenza dissipata. Si analizzano i semiconduttori, le giunzioni p-n, i diodi e i MOSFET, approfondendone struttura, funzionamento e caratteristiche. La parte digitale tratta porte logiche CMOS, prestazioni statiche e dinamiche, memorie SRAM, DRAM, ROM e Flash e principali architetture logiche. Vengono studiati circuiti a diodi, raddrizzatori, regolatori e alimentatori, oltre agli amplificatori operazionali ideali e reali, i circuiti retroazionati, i filtri e i multivibratori. Infine, si affrontano i convertitori A/D e D/A, il campionamento, gli errori di conversione e le principali architetture. Le esercitazioni permettono di applicare queste conoscenze all'analisi e al dimensionamento di circuiti e catene di acquisizione.",
+        "url": "https://andrea-bonari.github.io/fondamenti-di-elettronica",
+        "year": 3,
+        "credits": 10,
+        "isNotAvailable": true
+    },
+    {
         "name": "Sistemi informativi (per il settore dell'informazione)",
         "code": [ "IINF-05/A" ],
         "description": "Il corso introduce i sistemi informativi, il concetto di informazione e i suoi livelli, spiegando il ruolo del sistema informativo nelle organizzazioni. Si approfondisce l'Enterprise Architecture con il framework di Zachman e le fasi del ciclo di vita di un SI, dalla pianificazione alla gestione, includendo lo studio di fattibilità e le scelte make or buy. Viene presentata la modellazione dei sistemi con Archimate e BPMN per descrivere processi aziendali e flussi informativi. Si analizzano i componenti tecnologici e applicativi, distinguendo OLTP e OLAP, e gli applicativi ERP e CRM a supporto delle attività operative. La parte dedicata ai dati copre data warehouse, modelli multidimensionali, architetture, operatori OLAP e introduzione al data mining con i principali algoritmi. Si esaminano le scelte infrastrutturali per i SI, l'integrazione di applicazioni, dati e processi, le architetture distribuite e il cloud computing. Infine, si affronta la sicurezza dei sistemi informativi, introducendo crittografia simmetrica e asimmetrica, firma digitale, gestione utenti, controllo accessi, firewall e IDS.",
@@ -142,6 +151,15 @@
         "url": "https://andrea-bonari.github.io/economia-e-organizzazione-aziendale",
         "year": 3,
         "credits": 8
+    },
+    {
+        "name": "Fondamenti di human-computer interaction",
+        "code": [ "IINF-05/A" ],
+        "description": "Il corso introduce i principi della Human-Computer Interaction e le metodologie per progettare sistemi interattivi usabili, accessibili e inclusivi. Si studiano i modelli e i paradigmi di interazione, l'usabilità, la User Experience e i principi di visual design. Particolare attenzione è dedicata alla progettazione human-centered, attraverso l'analisi di utenti, bisogni, compiti e contesto d'uso, la definizione dei requisiti, la prototipizzazione e la valutazione iterativa delle soluzioni. Il corso affronta inoltre paradigmi di interazione avanzati, come sistemi multimodali basati sull'Intelligenza Artificiale, oggetti tangibili, linguaggio naturale, conversational AI, Large Language Models e interazione vocale. Le conoscenze vengono applicate attraverso un progetto di gruppo, sviluppato progressivamente mediante revisioni, prototipi e valutazioni.",
+        "url": "https://andrea-bonari.github.io/fondamenti-di-human-computer-interaction",
+        "year": 3,
+        "credits": 5,
+        "isNotAvailable": true
     },
     {
         "name": "Bioinformatics algorithms",
