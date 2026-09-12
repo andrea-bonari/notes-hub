@@ -5,7 +5,10 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<title>Notes</title>
+	<link rel="icon" href={favicon} />
+</svelte:head>
 <div class="flex flex-col min-h-full bg-blend-normal bg-linear-to-b from-[#1e1e1e] to-[#111111] items-center p-8 text-white">
 	{@render children()}
 </div>
