@@ -62,7 +62,7 @@
                         <div class="flex items-center justify-between w-full pr-4">
                             <div class="flex items-center">
                                 <img src={it.flag} alt="Flag" class="w-6 h-6 rounded-full mr-2" />
-                                <span class="text-white">{it.name}</span>
+                                <span class="text-white cursor-pointer">{it.name}</span>
                                 {#each it.code as tag}
                                     <Badge rounded color={tag.color} class="ml-2 hidden sm:block">{tag.code}</Badge>
                                 {/each}
