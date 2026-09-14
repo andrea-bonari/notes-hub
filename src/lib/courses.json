@@ -140,8 +140,7 @@
                 "description": "Il corso introduce i fondamenti dell'elettronica analogica e digitale, studiando il comportamento fisico dei dispositivi e dei circuiti e il loro impatto su prestazioni come amplificazione, risposta in frequenza, velocità e potenza dissipata. Si analizzano i semiconduttori, le giunzioni p-n, i diodi e i MOSFET, approfondendone struttura, funzionamento e caratteristiche. La parte digitale tratta porte logiche CMOS, prestazioni statiche e dinamiche, memorie SRAM, DRAM, ROM e Flash e principali architetture logiche. Vengono studiati circuiti a diodi, raddrizzatori, regolatori e alimentatori, oltre agli amplificatori operazionali ideali e reali, i circuiti retroazionati, i filtri e i multivibratori. Infine, si affrontano i convertitori A/D e D/A, il campionamento, gli errori di conversione e le principali architetture. Le esercitazioni permettono di applicare queste conoscenze all'analisi e al dimensionamento di circuiti e catene di acquisizione.",
                 "url": "https://andrea-bonari.github.io/fondamenti-di-elettronica",
                 "year": 3,
-                "credits": 10,
-                "isNotAvailable": true
+                "credits": 10
             },
             {
                 "name": "Sistemi informativi (per il settore dell'informazione)",
@@ -201,8 +200,7 @@
                 "description": "Il corso introduce i principi della Human-Computer Interaction e le metodologie per progettare sistemi interattivi usabili, accessibili e inclusivi. Si studiano i modelli e i paradigmi di interazione, l'usabilità, la User Experience e i principi di visual design. Particolare attenzione è dedicata alla progettazione human-centered, attraverso l'analisi di utenti, bisogni, compiti e contesto d'uso, la definizione dei requisiti, la prototipizzazione e la valutazione iterativa delle soluzioni. Il corso affronta inoltre paradigmi di interazione avanzati, come sistemi multimodali basati sull'Intelligenza Artificiale, oggetti tangibili, linguaggio naturale, conversational AI, Large Language Models e interazione vocale. Le conoscenze vengono applicate attraverso un progetto di gruppo, sviluppato progressivamente mediante revisioni, prototipi e valutazioni.",
                 "url": "https://andrea-bonari.github.io/fondamenti-di-human-computer-interaction",
                 "year": 3,
-                "credits": 5,
-                "isNotAvailable": true
+                "credits": 5
             },
             {
                 "name": "Bioinformatics algorithms",
